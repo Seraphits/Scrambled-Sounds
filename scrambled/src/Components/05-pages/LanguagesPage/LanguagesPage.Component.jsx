@@ -1,14 +1,15 @@
 import React from "react";
-// import HeroHome from "../../03-organisms/Static/Hero/HeroHome.Component";
-// import './HomePage.styles.scss';
+import { Link } from "react-router-dom";
 
-const HomePage = () => {
+
+const LanguagesPage = () => {
     return (
         <div>
-            {/* <HeroHome /> */}
             <h1>Languages Page</h1>
+            <Link to='/languages/Tabla'>Tabla</Link>
+            <Link to='/languages/Arabic'>Arabic</Link>
         </div> 
     );
 };
 
-export default HomePage;
+export default LanguagesPage;
