@@ -1,15 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-
-const LanguagesPage = () => {
-    return (
-        <div>
+class LanguagesPage extends Component {
+    render() {
+        return (
+            <div>
             <h1>Languages Page</h1>
-            <Link to='/languages/Tabla'>Tabla</Link>
-            <Link to='/languages/Arabic'>Arabic</Link>
+                <Link to='/languages/tabla'>Tabla</Link>
+
+
+            {/* {this.props.languages.map(l => (
+                <div key={l.languageID}>
+                    <Link to={'/languages/${l.name}'}>{l.name}</Link>
+                </div>
+            ))} */}
         </div> 
-    );
-};
+        );
+    }
+}
 
 export default LanguagesPage;
