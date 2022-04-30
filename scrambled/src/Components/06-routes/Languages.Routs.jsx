@@ -6,20 +6,20 @@
 // // import './App.css';
 
 // class LanguagesRoutes extends Component {
-//     static defaultProps = {
-//         languages: [
-//             {
-//                 languageID: 1,
-//                 name:"Tabla",
-//                 Description: "is a drum from India."
-//             },
-//             {
-//                 languageID:2,
-//                 name:"Arabic",
-//                 Description: "is a language spoken by Muslims."
-//             }
-//         ]
-//     };
+    // static defaultProps = {
+    //     languages: [
+    //         {
+    //             languageID: 1,
+    //             name:"Tabla",
+    //             Description: "is a drum from India."
+    //         },
+    //         {
+    //             languageID:2,
+    //             name:"Arabic",
+    //             Description: "is a language spoken by Muslims."
+    //         }
+    //     ]
+    // };
 //     render() {
 //         // const getLanguage = props => {
 //         //     let name = props.match.params.name;
